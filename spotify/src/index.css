@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.back{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.option{
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 30px;
+    left: 30px;
+    top: -140px;
+    fill: white;
+}
+
+.home{
+    width: 30px;
+    stroke: white;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.sait{
+    font-family: 'Overpass', sans-serif;
+    color: #c7c7c7;
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+
+}
+
+.menu{
+    position: absolute;
+    top: 75px;
+    left: 80px;
+    cursor: pointer;
+    user-select: none;
+    fill: white;
+}
+
+.a{
+    fill: #ffffff;
+}
+
+.ads{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0) 0%, rgba(54,9,121,1) 0%, rgba(0,0,0) 38%);
+    height: 100vh;
+    width: 1620px;
+    position: absolute;
+    left: 300px;
+}
+
+.po{
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 75%;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.op{
+    font-size: 16px;
+    border-radius: 30px;
+    width: 10px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.sf{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: -110px;
+    position: relative;
+    top: 10px;
+}
+
